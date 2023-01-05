@@ -10,7 +10,7 @@ public class HelloController {
     @FXML
     private Label player;
     @FXML
-    private Button XorO;
+    private Button exitButton;
     String x = "X";
     String y = "0";
     int control = 0;
@@ -42,6 +42,8 @@ public class HelloController {
     private Button two;
     @FXML
     void exitButtonClick(ActionEvent event) {
+        javafx.application.Platform.exit();
+
 
     }
 
