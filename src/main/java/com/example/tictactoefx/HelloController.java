@@ -43,12 +43,11 @@ public class HelloController {
     @FXML
     void exitButtonClick(ActionEvent event) {
         javafx.application.Platform.exit();
-
-
     }
 
     @FXML
     void newGameButtonClick(ActionEvent event) {
+
         buttonClean();
     }
 
